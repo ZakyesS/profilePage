@@ -7,6 +7,10 @@
 .container {
   .logo {
     grid-area: 1/1/1 / span 8;
+    img {
+      max-height: 100%;
+      border-radius: 50%;
+    }
   }
   .content {
     grid-area: 1/9/1 / span 12;
