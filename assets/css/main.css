@@ -104,4 +104,18 @@ main.container .project-description-display {
   text-align: center;
 }
 
+footer .contact ul {
+  display: flex;
+  justify-content: center;
+}
+footer .contact ul li {
+  list-style: none;
+  width: 8%;
+  margin-right: 2%;
+}
+footer .contact ul img {
+  width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

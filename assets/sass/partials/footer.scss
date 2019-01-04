@@ -1,0 +1,16 @@
+footer .contact {
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      width: 8%;
+      margin-right: 2%;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
