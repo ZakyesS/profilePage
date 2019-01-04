@@ -103,10 +103,5 @@ main.container .project-description-display {
   padding: 2%;
   text-align: center;
 }
-main.container .project-urls {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(2, auto);
-}
 
 /*# sourceMappingURL=main.css.map */
