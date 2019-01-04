@@ -7,17 +7,26 @@
 header div.container {
   .logo {
     grid-area: 1/1/1 / span 8;
+    display: flex;
+    justify-content: center;
     img {
       max-height: 100%;
       border-radius: 50%;
+      align-self: center;
     }
   }
   .content {
     grid-area: 1/9/1 / span 12;
     ul {
-      list-style-type: none;
       display: flex;
       justify-content: space-around;
+      li {
+        list-style: none;
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
     }
   }
 }
