@@ -1,6 +1,6 @@
 // MAIN
 
-$("table.skills tr td:nth-of-type(2) img").on({
+$("table.skills tr td img").on({
   mouseenter: e => {
     if ($(e.relatedTarget).attr("class")) {
       $(e.relatedTarget).prepend(`<span>${$(e.target).attr("alt")}</span>`);
