@@ -1,30 +1,39 @@
 .container {
   display: grid;
   grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(3, auto);
+
   grid-gap: 10px;
+  grid-row-gap: 50px;
+  padding: 1% 0 0 0;
 }
 
 header div.container {
-  .logo {
-    grid-area: 1/1/1 / span 8;
-    display: flex;
-    justify-content: center;
-    img {
-      max-height: 100%;
-      border-radius: 50%;
-      align-self: center;
-    }
-  }
   .content {
-    grid-area: 1/9/1 / span 12;
+    grid-area: 1/9 / span 2 / span 12;
     ul {
       display: flex;
       justify-content: space-around;
       li {
         list-style: none;
+
         a {
-          color: black;
+          color: white;
           text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        &:hover {
+          // text-decoration: line-through;
+          // text-decoration-style: solid;
+          // text-decoration-color: rebeccapurple;
+          font-size: 1.5rem;
+          box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+          border-radius: 5px;
+          margin-right: 5%;
+          // padding: 0 2%;
+          text-align: center;
+          width: 50%;
         }
       }
     }

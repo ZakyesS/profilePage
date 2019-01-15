@@ -11,28 +11,31 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Thasadith"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body class="back">
     <header>
       <div class="container">
-        <div class="logo"><img src="assets/images/LOGO1.png" alt="Logo" /></div>
         <div class="content">
           <ul>
             <li>
-              <a href="#about"><i class="fas fa-venus"></i> Who I am</a>
+              <a href="#about"><i class="fas fa-venus"></i> - Who I am</a>
             </li>
             <li>
-              <a href="#skills"><i class="far fa-heart"></i> SKILLS</a>
+              <a href="#skills"><i class="far fa-heart"></i> - SKILLS</a>
             </li>
             <li>
               <a href="#projects"
-                ><i class="fas fa-code-branch"></i> Projects</a
+                ><i class="fas fa-code-branch"></i> - Projects</a
               >
             </li>
             <li>
-              <a href="#contact"><i class="fas fa-at"></i> Contact</a>
+              <a href="#contact"><i class="fas fa-at"></i> - Contact</a>
             </li>
           </ul>
         </div>
@@ -41,15 +44,21 @@
 
     <main class="container">
       <div id="about">
-        <h1>Who I am</h1>
+        <h1>Who am I?</h1>
+        <div class="avatar">
+          <img
+            src="assets/images/18342495_10212021126471130_1095659846713256885_n.jpg"
+            alt="Logo"
+          />
+        </div>
         <p>
-          I'm a Junior Frontend Developer on Javascript language and also know
-          HTML 5, CSS, SASS, I am familiar with agile methods and Trello & Slack
-          Applications.
+          HELLO!! I'm Yuneysa, a Technician in Computer Systems Administration
+          and actually a Junior Frontend Developer on Javascript language. I
+          like the technology, music ... I love the world on machine learning.
         </p>
       </div>
       <div id="skills">
-        <h1>My SKILLS</h1>
+        <h1>SKILLS</h1>
         <table class="skills">
           <tr class="card">
             <td><h2>Main basics</h2></td>
@@ -99,12 +108,12 @@
           </tr>
         </table>
       </div>
-      <div id="projects">
-        <h1>Projects</h1>
-        <table class="projects">
+      <div>
+        <!-- <h1>Projects</h1> -->
+        <table class="projects" id="projects">
           <tr>
             <td>
-              <h2>Own Projects</h2>
+              <h1>Own Projects</h1>
               <div>
                 <h3>Budget APP</h3>
                 <img
@@ -112,7 +121,7 @@
                   alt="Image-from-Budget-APP"
                   data="This was my first own project. It's a budget which
                 you can add incomes and substract the expenses of the total
-                budget."
+                budget. The languages and techniques used was HTML 5 and CSS 3."
                   data-project="raw.githack.com/ZakyesS/Javascript-Sense/master/Budget_app_Project/index.html"
                   data-github="ZakyesS/Javascript-Sense/tree/master/Budget_app_Project"
                 />
@@ -122,7 +131,7 @@
                 <img
                   src="assets/images/chatapp2.png"
                   alt="chat-APP"
-                  data="As the name suggests, it's a chat application when you can join on a room and talk with the people who are inside it."
+                  data="As the name suggests, it's a chat application when you can join on a room and talk with the people who are inside it. The languages and techniques used was HTML 5, JS, CSS 3, node-JS and it's a responsive design."
                   data-project="node-chat-app-zakyess.herokuapp.com/"
                   data-github="ZakyesS/node-course-2-chat-app"
                 />
@@ -139,13 +148,13 @@
               </div>
             </td>
             <td>
-              <h2>BootCamp Ikigai</h2>
+              <h1>BootCamp Ikigai</h1>
               <div>
                 <h3>CV-Panel</h3>
                 <img
                   src="assets/images/cv-panel_1.png"
                   alt="CV-Panel"
-                  data="This was the most amazing project in which i was work. We made it 4 companions on the last part of the bootcamp."
+                  data="This was the most amazing project in which i was work. We made it 4 companions on the last part of the bootcamp. The languages and techniques used was HTML 5, JS, CSS 3, Bootstrap, J-Query and git-flow and it's a responsive design."
                   data-project="raw.githack.com/20H-Talent/CV-PANEL/master/index.html"
                   data-github="20H-Talent/CV-PANEL"
                 />
@@ -155,7 +164,7 @@
                 <img
                   src="assets/images/ikigai-proyect4_1.png"
                   alt="proyect4"
-                  data="This project was made with a newest friend in partner."
+                  data="This project was made with a newest friend in partner and it's a mockup layout project. The languages and techniques used was HTML 5, CSS 3, SASS and it's a responsive design with media queries."
                   data-project="20h-talent.github.io/ikigai-project-4-ana-yune/"
                   data-github="20H-Talent/ikigai-project-4-ana-yune"
                 />
@@ -165,7 +174,7 @@
                 <img
                   src="assets/images/netflix-clone_1.png"
                   alt="netflix-clone"
-                  data="It's a clone of Netflix and it was made with the perfect pixel technique."
+                  data="It's a clone of Netflix and it was made with the perfect pixel technique.  The languages and techniques used was HTML 5, CSS 3 and SASS."
                   data-project="raw.githack.com/20H-Talent/ikigai-project-5-netflix-clone-html-css-ZakyesS/develop/index.html"
                   data-github="20H-Talent/ikigai-project-5-netflix-clone-html-css-ZakyesS"
                 />
@@ -178,49 +187,66 @@
 
     <footer>
       <div id="contact" class="contact">
-        <h2>Contact</h2>
-        <ul>
-          <li>
-            <a
-              href="https://github.com/ZakyesS"
-              target="_blank rel="
-              noopener
-              noreferrer
-              ><img
-                src="assets/images/github-logo-transparent-2.png"
-                alt="github logo"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/yurena-suarez-cabrera/"
-              target="_blank rel="
-              noopener
-              noreferrer
-              ><img src="assets/images/linkedin-logo.png" alt="linkedin logo"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://codepen.io/ZakyesS/"
-              target="_blank rel="
-              noopener
-              noreferrer
-            >
-              <img src="assets/images/codepen-logo.png" alt="codepen logo"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/yuneysa_cabrera/"
-              target="_blank rel="
-              noopener
-              noreferrer
-            >
-              <img src="assets/images/instagram-logo.png" alt="instagram logo"
-            /></a>
-          </li>
-        </ul>
+        <div>
+          <h2>Do you want to contact with me?</h2>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/ZakyesS"
+                target="_blank rel="
+                noopener
+                noreferrer
+                ><img
+                  src="assets/images/github-logo-transparent-2.png"
+                  alt="github logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/yurena-suarez-cabrera/"
+                target="_blank rel="
+                noopener
+                noreferrer
+                ><img src="assets/images/linkedin-logo.png" alt="linkedin logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://codepen.io/ZakyesS/"
+                target="_blank rel="
+                noopener
+                noreferrer
+              >
+                <img src="assets/images/codepen-logo.png" alt="codepen logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/yuneysa_cabrera/"
+                target="_blank rel="
+                noopener
+                noreferrer
+              >
+                <img src="assets/images/instagram-logo.png" alt="instagram logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <form action="">
+          <div>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Your Message"
+          ></textarea>
+          <button type="submit">Send a message</button>
+        </form>
       </div>
     </footer>
     <script

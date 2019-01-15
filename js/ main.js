@@ -36,7 +36,7 @@ $("table.projects tr td img").on({
     // $("a.project-urls").remove();
 
     $(e.target).after(
-      `<span class="project-description project-description-display">${$(
+      `<span class="project-description project-description-display main-card">${$(
         e.target
       ).attr("data")}</span>`
     );
